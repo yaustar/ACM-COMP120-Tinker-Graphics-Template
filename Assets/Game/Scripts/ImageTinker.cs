@@ -18,7 +18,6 @@ public class ImageTinker : MonoBehaviour {
         var height = sourceTexture2D.height;
         
         var targetTexture2D = new Texture2D(width, height, TextureFormat.RGBA32, false);
-        Debug.Log(targetTexture2D.isReadable);
         var targetPixels = sourceTexture2D.GetPixels();
         
         for (var i = 0; i < width; i++) {
