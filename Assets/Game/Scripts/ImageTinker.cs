@@ -1,4 +1,4 @@
-﻿using System.Collections;
+h﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -20,9 +20,9 @@ public class ImageTinker : MonoBehaviour {
         var targetTexture2D = new Texture2D(width, height, TextureFormat.RGBA32, false);
         var targetPixels = sourceTexture2D.GetPixels();
         
-        for (var i = 0; i < width; i++) {
-            for (var j = 0; j < height; j++) {
-                var pixelIndex = (i * width) + j;
+        for (var h = 0; h < height; h++) {
+            for (var w = 0; w < width; w++) {
+                var pixelIndex = (h * height) + w;
                 // Do stuff with pixels :)
             }
         }
