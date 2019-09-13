@@ -22,7 +22,7 @@ public class ImageTinker : MonoBehaviour {
         
         for (var h = 0; h < height; h++) {
             for (var w = 0; w < width; w++) {
-                var pixelIndex = (h * height) + w;
+                var pixelIndex = (h * width) + w;
                 // Do stuff with pixels :)
             }
         }
